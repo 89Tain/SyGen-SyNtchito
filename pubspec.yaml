@@ -1,0 +1,67 @@
+name: malawi_jobs
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  cached_network_image: ^3.2.2
+  shimmer: ^3.0.0
+  dropdown_search: ^5.0.6
+  url_launcher: ^6.1.6
+  pull_to_refresh: ^2.0.0
+  double_back_to_close_app: ^2.1.0
+  easy_pdf_viewer: ^1.0.6
+  card_loading: ^0.3.2
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/
+    - assets/icons/
+  fonts:
+    - family: quicksand
+      fonts:
+        - asset: assets/fonts/quicksand.ttf
+    - family: leguespartan
+      fonts:
+        - asset: assets/fonts/leguespartan.ttf
+    - family: amsterdam
+      fonts:
+        - asset: assets/fonts/amsterdam.ttf
+    - family: richard
+      fonts:
+        - asset: assets/fonts/richard.otf
+    - family: cambria_italics
+      fonts:
+        - asset: assets/fonts/cambriai.ttf
+    - family: cambria_normal
+      fonts:
+        - asset: assets/fonts/cambriaz.ttf
+    - family: cambria_bold
+      fonts:
+        - asset: assets/fonts/cambriab.ttf
+    - family: cambria
+      fonts:
+        - asset: assets/fonts/cambria.ttc
+    - family: tagline_font_bold_italic
+      fonts:
+        - asset: assets/fonts/ANTQUABI.TTF
+    - family: tagline_font_italic
+      fonts:
+        - asset: assets/fonts/ANTQUAI.TTF
